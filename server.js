@@ -6,7 +6,7 @@ const app = express();
 // --- ITT CSERÉLD KI A CÍMET! ---
 // Ide írd be annak a nem biztonságos (http://) weboldalnak a címét,
 // amit meg szeretnél jeleníteni.
-const TARGET_URL = 'http://s1.free-shoutcast.com:18140/;';
+const TARGET_URL = 'http://s1.free-shoutcast.com:18114/;';
 // ---------------------------------
 
 console.log(`Proxying to -> ${TARGET_URL}`);
