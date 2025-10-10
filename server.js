@@ -4,7 +4,7 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 const app = express();
 
 // --- ITT CSERÉLD KI A CÍMET! ---
-const TARGET_URL = 'http://37.157.242.101:23203';
+const TARGET_URL = 'http://82.145.41.50:23348';
 // ---------------------------------
 
 console.log(`Proxying to -> ${TARGET_URL}`);
